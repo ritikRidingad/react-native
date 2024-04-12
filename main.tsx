@@ -21,7 +21,7 @@ export default function Main() {
     return (
         <NavigationContainer>
             <Provider store={store}>
-                <Stack.Navigator initialRouteName='home'>
+                <Stack.Navigator initialRouteName='login'>
                     <Stack.Screen name="home" component={Home} options={{ headerShown: false }} />
                     <Stack.Screen name="login" component={Login} options={{ headerShown: false }} />
                     <Stack.Screen name="otp" component={Otp} options={{ headerShown: false }} />
